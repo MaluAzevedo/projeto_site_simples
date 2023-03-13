@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+
+form {
+    /* border: red solid 4px; */
+    width: 80%;
+    margin: auto;
+}
+
+form label {
+    /* border: pink solid 5px; */
+    display: inline-block;
+    width: 100%;
+}
+
+form input {
+    /* border: pink solid 5px; */
+    width: 80%;
+    padding: 0px;
+    margin: 0px;
+}
+
+form textarea {
+    /* border: pink solid 5px; */
+    width: 80%;
+    padding: 0px;
+    margin: 0px;
+}
+
+form button {
+    /* border: pink solid 5px; */
+    /* width: 80%; */
+    padding: 0px;
+    margin-right: 30%;
+}

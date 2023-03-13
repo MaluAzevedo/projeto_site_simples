@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(206, 201, 201);
+    margin: 0px;
+    height: 100vh;
+}
+
+.cabecalho {
+    background-color: rgb(43, 42, 42);
+    padding: 20px;
+}
+
+.cabecalho .menu__link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 4px 10px;
+
+}
+
+.cabecalho .menu__link:hover {
+    /*background-color: rgb(225, 224, 224);*/
+    /*border-radius: 20px;*/
+    color: rgb(144, 142, 142);
+}
+
+main {
+    /*border: green solid 10px;*/
+    padding: 10px 20px;
+}
+
+.artigo {
+    /*border: pink solid 5px;*/
+    border-bottom: 1px black dotted;
+    padding: 10px 0px 10px 0px;
+}
+
+.artigo_cabecalho_titulo {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+.artigo_corpo_texto p{
+    margin-top: 0px;
+    width: 60ch;
+    text-align: justify;
+}
+
+.artigo_rodape_botao {
+    background-color: rgb(43, 42, 42);
+    border-radius: 20px;
+    padding: 2px 5px;
+    color: rgb(206, 204, 204);
+    border: solid black 1px;
+    display: inline-block;
+}
+
+.artigo_rodape_botao:hover {
+    background-color: rgb(86, 85, 85);
+    color: rgb(198, 198, 198);
+    border: solid white 1px;
+    box-shadow: -2px 4px 10px 1px black;
+}
